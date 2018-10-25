@@ -10,7 +10,7 @@ import UIKit
 class EcranAController: UIViewController {
 
    
-    
+    @IBOutlet weak var contenuATransmettre: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +18,14 @@ class EcranAController: UIViewController {
 
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "monSegue" {
+            if let b = segue.destination as? EcranBController {
+                b.textEcranB = contenuATransmettre.text
+            }
+            
+        }
+    }
 
     
 }

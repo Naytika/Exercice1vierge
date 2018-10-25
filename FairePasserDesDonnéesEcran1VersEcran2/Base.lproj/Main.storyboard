@@ -43,7 +43,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="zHx-pT-uZm"/>
                     <connections>
-                        <outlet property="contenuATransmettre" destination="8uu-Jf-1qK" id="eZe-Mu-8XB"/>
+                        <outlet property="contenuATransmettre" destination="8uu-Jf-1qK" id="l9C-Wd-CDJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -93,7 +93,7 @@
                         <viewLayoutGuide key="safeArea" id="CSy-K1-n5c"/>
                     </view>
                     <connections>
-                        <outlet property="destinationLabel" destination="UiQ-SP-5tt" id="xHu-Oo-IK7"/>
+                        <outlet property="destinationLabel" destination="UiQ-SP-5tt" id="i4B-Um-hLc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7a-iM-hoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
